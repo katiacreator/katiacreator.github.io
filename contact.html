@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Katia Gibson Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Philosopher&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-info">
+    <!--NavbarBRAND/LOGO starts here-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand mb-1" id="h1" href="#">{KATIA GIBSON}</a>
+        <!--button toggler/collapsible hamburger on small screen-->
+        <button class="navbar-toggler bg-info" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-info" alt="hamburger icon for toggle dropdown menu"></span>
+        </button>
+        <!--div around nav links-->
+        <section class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--Navigation Links floated to the right-->
+            <ul class="navbar-nav bg-dark ml-auto mr-5">
+                <li class="nav-item">
+                    <!--active link is bg-info and text-white-->
+                    <a class="nav-link text-info" href="index.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="portfolio.html">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active rounded bg-info text-white" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+    <!--end NAv-->
+    <!--JUMBOTRON-->
+    <section class="row">
+        <section class="col-12">
+            <section class="jumbotron jumbotron-fluid pr-2 pl-2 bg-danger" id="portfolio">
+                <section class="container">
+                    <h1 class="display-4 text-center font-weight-bold">KATIA GIBSON:</h1>
+                    <p class="lead text-center">{BORN IN VIRGINIA, BASED IN PHILADELPHIA}</p>
+                </section>
+            </section>
+        </section>
+    </section>
+    <!--contact form lives here-->
+    <main class="container mb-5">
+        <!--needs padding fixed-->
+        <!--CONTACT FORM CONTAINER-->
+        <section class="shadow-lg rounded p-3 m-3">
+            <!--CONTACT ME HEADER ROW AND COLUMN-->
+            <section class="row">
+                <section class="col-12 pt-3">
+                    <section class="page-header">
+                        <h1 class="text-white border-bottom pb-3">CONTACT ME</h1>
+                    </section>
+                </section>
+            </section>
+            <!--NAME EMAIL AND MESSAGE BOX ARE FULL WIDTH BC OF COL CLASS HOUSED UNDER THIS ROW AND COLUMN-12 PB-2-->
+            <section class="row">
+                <form class="col-12 pb-2">
+                    <form>
+                        <section class="form-group pt-1">
+                            <!--NAME INPUT GOES HERE INSERT HERE GRABBED FROM EXAMPLE LABELS IN BOOTSTRAP UNDER FORMS-->
+                            <section class="form-group">
+                                <label for="formGroupExampleInput" class="text-white">NAME</label>
+                                <input type="text" class="form-control border border-info" id="formGroupExampleInput">
+                            </section>
+                            <!--EMAIL INPUT STARTS HERE-->
+                            <label for="exampleInputEmail1" class="text-white">EMAIL ADDRESS</label>
+                            <input type="email" class="form-control border border-info" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </section>
+                        <!--TEXT AREA INSERT HERE BEFORE SUBMIT BUTTON-->
+                        <section class="form-group">
+                            <label for="formGroupExampleInput" class="text-white">MESSAGE</label>
+                            <textarea class="form-control border border-info" id="exampleFormControlTextarea1"
+                                rows="5"></textarea>
+                        </section>
+                        <button type="submit" class="btn btn-info btn-md active font-weight-bold">SUBMIT</button>
+                    </form>
+                </form>
+            </section>
+        </section>
+    </main>
+    <!--Footer contains simple copyright text footer same color as navbar for color scheme aesthetic-->
+    <footer class="footer border border-top bg-danger mt-auto py-3 p-3">
+        <section class="container">
+            <span class="text-white font-weight-bold text-center"> KATIA GIBSON &copy; 2020</span>
+        </section>
+    </footer>
+    <!-- jQuery CDN -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
